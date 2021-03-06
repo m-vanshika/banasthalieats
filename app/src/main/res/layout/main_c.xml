@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Butter Naan"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m1"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q1"
+                    android:layout_width="30sp"
+                    android:layout_height="wrap_content"
+                    android:text=" 0 " />
+
+                <Button
+                    android:id="@+id/p1"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 30 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Family naan"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m2"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p2"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 75 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Missi Roti"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m3"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p3"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 25 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tandoori Roti"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m4"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p4"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 15 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kadhai Paneer"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m5"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p5"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 120/-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tava Takatak"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m6"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p6"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 120 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aloo Bukhara"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m7"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p7"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 120 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paneer Peshawari"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m8"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p8"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 120 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kaajoo Kari"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m9"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p9"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 120 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mushroom Gravy"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m10"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p10"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 120 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dahi"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m11"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p11"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 50 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masala Papad"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m12"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p12"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 30 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veg Rayta"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m13"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p13"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 55 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Handi Paneer"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m14"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p14"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 150 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Green Salad"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m15"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p15"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 50 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dal Tadka"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m16"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p16"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 90 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/s17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dam Aloo"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/m17"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="- \n" />
+
+                <TextView
+                    android:id="@+id/q17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/p17"
+                    android:layout_width="30sp"
+                    android:layout_height="50sp"
+                    android:text="+" />
+
+                <TextView
+                    android:id="@+id/r17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 100 /-"
+                    android:textColor="#040000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

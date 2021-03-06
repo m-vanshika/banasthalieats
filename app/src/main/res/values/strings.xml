@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">khayegabanasthali</string>
+    <string name="title_activity_mukki">mukki</string>
+    <string name="tab_text_1">Snacks</string>
+    <string name="tab_text_2">Dessert</string>
+    <string name="tab_text_3">Main course</string>
+    <string name="tab_text_4">Drinks</string>
+    <string name="tab_text_5">Macroni</string>
+    <string name="tab_text_6">Uttpam</string>
+    <string name="tab_text_7">Kulcha</string>
+    <string name="tab_text_8">burger</string>
+    <string name="tab_text_9">noodles</string>
+    <string name="tab_text_10">soup</string>
+    <string name="tab_text_11">vegetables</string>
+    <string name="tab_text_12">sandwitch</string>
+    <string name="tab_text_13">Pasta</string>
+    <string name="tab_text_14">Shakes</string>
+    <string name="tab_text_15">Tea n Coffee</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mukku">mukku</string>
+</resources>
